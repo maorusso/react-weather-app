@@ -12,8 +12,6 @@ function App() {
 			});
 	}, []);
 
-	console.log(forecast);
-
 	return (
 		<div className="App">
 			{forecast.map((dailyForecast) => (
